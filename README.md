@@ -9,7 +9,6 @@ Apres chaque augmentation de level en fonction de la class les stats augmentes d
 - XAMPP v3.3.0 
 - phpmyadmin
 - le ficher rpg_php.sql à exporter dans phpmyadmin
-
 - un serveur local apache
 - exporter les ficher dans xampp/htdocs
 ---

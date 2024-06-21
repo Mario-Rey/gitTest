@@ -19,6 +19,6 @@
             $stmt->close(); $mysqli->close();
             session_start();
             $_SESSION["name"]=$name;
-            $_SESSION["class"]=$class;
+            
             
             header("location: ../index.php");

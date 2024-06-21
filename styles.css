@@ -1,13 +1,14 @@
 /*page de conection*/
 .formConnect{
     display:flex;
-    gap:2rem;
+    gap:5rem;
     justify-content: center;
     margin: 8rem;
     
 }
 .formRegister{
     display:grid;
+    
 }
 .formLogin{
     display:grid;

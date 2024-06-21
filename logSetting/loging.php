@@ -30,7 +30,7 @@
         
                      //Set les variable de la session 
                      $_SESSION['login'] = true; $_SESSION['id'] = $id; $_SESSION['name'] = $name; 
-        
+                     
                  // redirige la page  
                  header("location: ../index.php"); } } 
 

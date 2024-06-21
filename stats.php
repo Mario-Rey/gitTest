@@ -27,7 +27,7 @@ $row = mysqli_fetch_assoc($result);
       // affiche les stats
           $result = $mysqli->query($sql);
           if ($result->num_rows > 0) {
-              while($row = $result->fetch_assoc()) {
+              if($row = $result->fetch_assoc()) {
               ?><div class="stats"> <?php 
                 echo "<div>Name: " . $row["name"]. " </div><div> Class: ". $row["class"]. " </div><div>Lv: ". $row["level"]. " </div><div>Xp: " . $row["xp"]." </div><div>Force: " . $row["strength"]. " </div><div>Défense: " . $row["defense"]. "<br></div>";
               ?> </div> </div><?php 
