@@ -15,6 +15,7 @@
     }
 ?>
         <div class="containerMobStats">   
+            
             <div>
                     <div class="mobAtk">
                         <p>Dégâts infligés:</p>
@@ -35,7 +36,7 @@
     <div class="containerMob">
         
         
-        <div class="imgAnime"><img src="..\img\zombie.png" alt="poule" width="400" 
+        <div class="imgAnime"><img src="..\img\zombie.png" alt="poule" width="350" 
         height="200" ></div>
         <div><h2><?php echo "".$rowz['hp']."" ?></h2></div>
     

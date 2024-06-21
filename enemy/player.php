@@ -12,6 +12,7 @@ if ($row['hp'] <= 0 ){
     header("location:../index.php");
     mysqli_query($mysqli,"UPDATE player  SET hp = hpMax WHERE name ='$_SESSION[name]'" );
 }
+//le syteme de leveling
 if ($row['xp'] > $row['strength'] * $row['defense'] / 50){
     if($row['class']== "Mage"){
         mysqli_query($mysqli,"UPDATE player  SET strength = strength + 150 WHERE name ='$_SESSION[name]'" );

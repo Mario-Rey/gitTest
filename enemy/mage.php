@@ -40,7 +40,9 @@
         <div><h2><?php echo "".$rowm['hp']."" ?></h2></div>
     
         <div><meter  id="hpPoulet"  min="0"  max="100" value=<?php $rowm['hp']?>><?php $rowm['hp']?></meter></div>
-        <?php echo $_SESSION["morpion"];?>
+        <?php   if(isset($_SESSION["morpion"])){
+             echo $_SESSION["morpion"];
+        }?>
     </div>
         <form class="formAtk" action="enemySettings/mageAtk.php" method="post"> 
                 <select name="game-select" id="game-select">

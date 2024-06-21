@@ -16,14 +16,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
+        
             <ul>
                 <li><a href="Index.php">Home</a></li>
                 <li><a href="stats.php">stats</a></li>
                 <li><a href="mob.php">monstre</a></li>
                 <li><a href="rank.php">Rank</a></li>
             </ul>
-        </div>
+        
     </div>
     
 

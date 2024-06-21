@@ -45,6 +45,7 @@
 
                 <input class="btnAtk" name="login" type="submit" value="attaque" />
         </form>     
+        
         <?php mysqli_close($mysqli); 
         include ('footer.php'); ?>
 
