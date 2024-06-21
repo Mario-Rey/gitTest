@@ -1,0 +1,1 @@
+<?php $mysqli = new mysqli ("localhost","Mario","Mailswif22","rpg_php");  ?>
